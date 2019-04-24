@@ -18,7 +18,6 @@ class Layout extends React.Component {
   }
   render() {
     const { location } = this.props;
-    console.log("layout");
     return (
       <div id="PAGE" className="page">
         <Header title={this.state.title} />

@@ -2,8 +2,6 @@ import React from "react"
 
 export default class Works extends React.Component {
   render() {
-    console.log("works");
-
     return (
       <div>
         <section class="mt30 mb40">
