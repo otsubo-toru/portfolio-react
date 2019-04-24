@@ -7,18 +7,87 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
+  <meta name="keywords" content="">
   <meta name="author" content="">
   <title>Portfolio｜Toru Otsubo</title>
+  <meta name="robots" content="noydir">
+  <meta name="robots" content="noodp">
+  <meta name="robots" content="noindex,nofollow">
+
   <!-- Bootstrap Core CSS -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="/css/common.css">
 
   <!-- Custom Fonts -->
   <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"> -->
+
+  <link rel="stylesheet" type="text/css" href="/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/js/magnific-popup.css">
+  <link rel="stylesheet" href="/css/fontello/css/fontello.css">
+  <link rel="stylesheet" href="/css/fontello/css/animation.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/css/fontello/css/fontello-ie7.css">
+  <![endif]-->
+
 </head>
 
 <body>
   <div id="app"></div>
   <script src="client.min.js"></script>
+
+  <script src="/js/jquery-1.10.2.min.js"></script>
+  <script src="/js/cookie/jquery.cookie.js"></script>
+  <script src="/js/csv/jquery.csv.js"></script>
+  <script src="/js/mousewheel/jquery.mousewheel.min.js"></script>
+  <script src="/js/fixHeight/jquery.fixHeight.js"></script>
+  <script src="/js/smoothscroll/jquery.smoothscroll.js"></script>
+  <script src="/js/pagetopBtn/jquery.pagetopBtn.js"></script>
+  <script src="/js/spSwitch/jquery.spSwitch.js"></script>
+  <script src="/js/jquery.magnific-popup.js"></script>
+  <script>
+  $(function() {
+  	$(window).spSwitch({
+  		cssFiles : [
+  			"/css/sp_common.css"
+  		]
+  	});
+
+  	/*
+  	$(".magnific-popup-gallery").magnificPopup({
+  		delegate: '.magnific-popup',
+  		type: 'image',
+  		tLoading: 'Loading image #%curr%...',
+  		closeOnContentClick: true,
+  		closeBtnInside: false,
+  		fixedContentPos: true,
+  		gallery: {
+  			enabled: true,
+  			navigateByImgClick: true,
+  			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+  		},
+  		image: {
+  			verticalFit: true
+  		},
+  		midClick: true,
+  		removalDelay: 300,
+  		mainClass: 'my-mfp-slide-bottom'
+  	});
+  	*/
+  	$(".magnific-popup").magnificPopup({
+  		type: 'image',
+  		tLoading: 'Loading image #%curr%...',
+  		closeOnContentClick: true,
+  		closeBtnInside: false,
+  		fixedContentPos: true,
+  		image: {
+  			verticalFit: true
+  		},
+  		zoom: {
+  			enabled: true,
+  			duration: 300 // don't foget to change the duration also in CSS
+  		}
+  	});
+  });
+  </script>
+
 </body>
 </html>
