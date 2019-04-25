@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio-react/static/js/main.83597fcb.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.83597fcb.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.34f5768f.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.34f5768f.chunk.js.map",
     "runtime~main.js": "/portfolio-react/static/js/runtime~main.72b3206a.js",
     "runtime~main.js.map": "/portfolio-react/static/js/runtime~main.72b3206a.js.map",
     "static/js/2.b823d8d4.chunk.js": "/portfolio-react/static/js/2.b823d8d4.chunk.js",
     "static/js/2.b823d8d4.chunk.js.map": "/portfolio-react/static/js/2.b823d8d4.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.0037122a6b78837a6bd63eb661dfcb67.js": "/portfolio-react/precache-manifest.0037122a6b78837a6bd63eb661dfcb67.js",
+    "precache-manifest.73c83c254b55bd6f25029fc20cca3c12.js": "/portfolio-react/precache-manifest.73c83c254b55bd6f25029fc20cca3c12.js",
     "service-worker.js": "/portfolio-react/service-worker.js"
   }
 }
